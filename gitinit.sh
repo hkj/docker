@@ -1,6 +1,5 @@
 apt -y update
 apt -y install \
-   git \
    apt-transport-https \
    ca-certificates \
    curl \
