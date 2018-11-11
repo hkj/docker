@@ -3,6 +3,7 @@ apt -y install \
    ca-certificates \
    curl \
    lv \
+   vim \
    software-properties-common
 # curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
@@ -20,4 +21,8 @@ apt install -y python3-pip
 #
 # pytorch for python3.6, pip, CUDA9.2
 # pip3 install http://download.pytorch.org/whl/cu92/torch-0.4.1-cp36-cp36m-linux_x86_64.whl
+# pip3 install torchvision
+# 
+# for no CUDA
+# pip3 install http://download.pytorch.org/whl/cpu/torch-0.4.1-cp36-cp36m-linux_x86_64.whl
 # pip3 install torchvision
